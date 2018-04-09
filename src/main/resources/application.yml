@@ -9,3 +9,10 @@ spring:
      initialSize: 5
   profiles:
     active: dev
+    
+# freemarker  配置
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+  mvc:
+    static-path-pattern: /static/**

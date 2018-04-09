@@ -1,13 +1,13 @@
-package com.emeng.entity;
+package com.emeng.demo.entity;
 
 public class UserT {
-	private Long userId;
+	private Integer userId;
 	private String realName;
     private String mobile;
-	public Long getUserId() {
+	public Integer getUserId() {
 		return userId;
 	}
-	public void setUserId(Long userId) {
+	public void setUserId(Integer userId) {
 		this.userId = userId;
 	}
 	public String getRealName() {
